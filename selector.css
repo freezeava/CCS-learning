@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(207, 203, 197);
+}
+#bro{
+    border: 5px solid rgb(55, 255, 0);
+}
+#faceid{
+    color: rgb(20, 121, 222);
+}
+.bluecol{
+    background-color: aqua;
+}
+#searchbtn{
+    color: beige;
+background-color: black;
+}
+
+div:nth-of-type(2n){
+    background-color: black;
+}
+
+button:hover{
+    background-color: yellowgreen;
+    color: blue;
+}
+
+h3:hover{
+    text-decoration: red overline;
+}
+
+#tony::first-letter{
+    font-size: 200px;
+    color: rgb(198, 176, 31)
+    
+}
+
+*::selection{
+    background-color: rgb(174, 0, 255);
+}
