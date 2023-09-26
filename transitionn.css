@@ -1,0 +1,13 @@
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px black;
+}
+
+#outer:hover{
+    border-radius: 50%;
+    background-color: blue;
+    
+    transition: 10s;
+}
