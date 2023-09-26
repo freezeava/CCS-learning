@@ -1,0 +1,16 @@
+.card{
+    border-radius: 4%;
+    border: 2px solid black;
+    background-color: rgb(208, 240, 238);
+    display: inline-block;
+    margin: 30px;
+    transition: 2s;
+    
+}
+img{
+    border-radius: 4%;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px black;
+}
