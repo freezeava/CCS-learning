@@ -1,0 +1,27 @@
+#outer{
+    height: 800px;
+    width:800px;
+    background-color: bisque;
+}
+
+#one{
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  margin: 20px;
+}
+
+#two{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 229, 127);
+    margin: 20px;
+  }
+
+
+  #three{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 212, 127);
+    margin: 20px;
+  }

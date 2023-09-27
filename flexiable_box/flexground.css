@@ -1,0 +1,48 @@
+#outer{
+    height: 300px;
+    width:80%;
+    background-color: antiquewhite;
+    margin-top: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+h1{
+    text-align: center;
+}
+
+#violet{
+    background-color: violet;
+}
+#indigo{
+    background-color: indigo;
+    flex-grow: 2;
+    min-width: 200px;
+    max-width: 400px;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+    flex: 2 2 100px;
+}
+#orange{
+    background-color: orange;
+}
+#red{
+    background-color: red;
+}
+
+#outer div{
+    height: 100px;
+    width: 300px;
+    color: bisque;
+    text-align: center;
+    font-size: 1.5em;
+}
